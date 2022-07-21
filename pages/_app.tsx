@@ -8,7 +8,7 @@ import '@styles/globals.css';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
-    <SessionProvider>
+    <SessionProvider session={session}>
       <NextUIProvider>
         <Layout>
           <Component {...pageProps} />
