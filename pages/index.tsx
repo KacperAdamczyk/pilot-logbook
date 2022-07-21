@@ -1,6 +1,6 @@
 import type { GetServerSideProps, NextPage } from 'next';
 import { useSession } from 'next-auth/react';
-import { getPlanes } from '@api/planes';
+import { getPlanes } from '@fetch/planes';
 
 interface Props {
   planes: string[];

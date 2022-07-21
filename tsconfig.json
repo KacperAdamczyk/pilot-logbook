@@ -20,7 +20,7 @@
       "@components": ["components"],
       "@components/*": ["components/*"],
       "@helpers": ["helpers"],
-      "@api/*": ["api/*"]
+      "@fetch/*": ["fetch/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
