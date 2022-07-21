@@ -1,7 +1,6 @@
 import { FC, useCallback } from 'react';
-import { useSession } from 'next-auth/react';
+import { useSession, signOut } from 'next-auth/react';
 import { Dropdown, User } from '@nextui-org/react';
-import { signOut } from 'next-auth/react';
 
 enum Action {
   Logout = 'logout',
