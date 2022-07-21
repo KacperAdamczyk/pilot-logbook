@@ -20,7 +20,7 @@ const createFetcher = <Response = never, Params extends never[] = []>(
     ...params: Params
   ): Promise<Response> => {
     const serverAxiosInstance = axios.create({
-      baseURL: process.env.NEXTAUTH_URL,
+      baseURL: `https://${process.env.VERCEL_URL}` ?? process.env.NEXTAUTH_URL,
       headers: {
         Cookie: req.headers.cookie ?? '',
       },
