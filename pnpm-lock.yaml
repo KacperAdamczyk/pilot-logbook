@@ -10,13 +10,13 @@ specifiers:
   '@types/node': 18.0.5
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
-  '@typescript-eslint/eslint-plugin': ^5.30.7
-  '@typescript-eslint/parser': ^5.30.7
-  axios: ^0.27.2
+  '@typescript-eslint/eslint-plugin': 5.30.7
+  '@typescript-eslint/parser': 5.30.7
+  axios: 0.27.2
   eslint: 8.20.0
   eslint-config-next: 12.2.3
   eslint-config-prettier: 8.5.0
-  eslint-plugin-import: ^2.26.0
+  eslint-plugin-import: 2.26.0
   next: 12.2.3
   next-auth: 4.10.2
   next-connect: 1.0.0-next.2
@@ -1816,7 +1816,7 @@ packages:
     dev: false
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /convert-source-map/1.8.0:
