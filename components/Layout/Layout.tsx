@@ -1,34 +1,27 @@
 import { FC, PropsWithChildren } from 'react';
-import { Container, Loading, Row } from '@nextui-org/react';
-import { Navbar } from '@components/Navbar';
 import { useSession } from 'next-auth/react';
-import { Navigation } from '@components/Navigation';
+import { AppShell } from '@mantine/core';
+import { Header } from '@components/Header';
 
 const Layout: FC<PropsWithChildren> = ({ children }) => {
   const { status } = useSession();
   const isSessionLoading = status === 'loading';
 
   return (
-    <Container
-      fluid
-      css={{
-        p: 0,
-        bgColor: '$gray50',
-        minHeight: '100vh',
-      }}
+    <AppShell
+      padding="md"
+      header={<Header />}
+      styles={(theme) => ({
+        main: {
+          backgroundColor:
+            theme.colorScheme === 'dark'
+              ? theme.colors.dark[8]
+              : theme.colors.white,
+        },
+      })}
     >
-      <Row css={{ bgColor: '$blue600' }}>
-        <Navbar />
-      </Row>
-      <Row>
-        <Navigation />
-      </Row>
-      <Row>
-        <Container>
-          {isSessionLoading ? <Loading size="xl" /> : children}
-        </Container>
-      </Row>
-    </Container>
+      {children}
+    </AppShell>
   );
 };
 
