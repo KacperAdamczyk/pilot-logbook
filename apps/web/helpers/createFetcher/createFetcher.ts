@@ -1,18 +1,18 @@
 import axios, { AxiosInstance } from 'axios';
 import { IncomingMessage } from 'http';
 
-interface FetchCallback<Params extends never[], Response> {
+interface FetchCallback<Response, Params extends never[]> {
   (axios: AxiosInstance, ...params: Params): Promise<Response>;
 }
 
-interface Invoker<Params extends never[], Response> {
+export interface Invoker<Response, Params extends never[] = []> {
   (...params: Params): Promise<Response>;
   server(req: IncomingMessage, ...params: Params): Promise<Response>;
 }
 
 const createFetcher = <Response = never, Params extends never[] = []>(
-  fetchCallback: FetchCallback<Params, Response>,
-): Invoker<Params, Response> => {
+  fetchCallback: FetchCallback<Response, Params>,
+): Invoker<Response, Params> => {
   const clientInvoker = (...params: Params) => fetchCallback(axios, ...params);
 
   clientInvoker.server = (
