@@ -16,7 +16,7 @@
     "@emotion/styled": "11.10.4",
     "@mantine/core": "5.1.6",
     "@mantine/hooks": "5.1.6",
-    "@mantine/next": "5.1.6",
+    "@mantine/next": "5.3.0",
     "@next-auth/prisma-adapter": "1.0.4",
     "@prisma/client": "4.3.1",
     "@tabler/icons": "1.82.0",
