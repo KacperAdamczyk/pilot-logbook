@@ -7,7 +7,7 @@ import { Layout } from '@components';
 
 import '@styles/globals.css';
 
-function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-      <SessionProvider session={session}>
+      <SessionProvider>
         <MantineProvider
           withGlobalStyles
           withNormalizeCSS
