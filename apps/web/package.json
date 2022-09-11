@@ -11,9 +11,9 @@
     "generate": "prisma generate"
   },
   "dependencies": {
-    "@emotion/react": "11.10.0",
+    "@emotion/react": "11.10.4",
     "@emotion/server": "11.10.0",
-    "@emotion/styled": "11.10.0",
+    "@emotion/styled": "11.10.4",
     "@mantine/core": "5.1.6",
     "@mantine/hooks": "5.1.6",
     "@mantine/next": "5.1.6",
