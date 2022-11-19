@@ -38,7 +38,7 @@ importers:
       next: 12.3.3
       next-auth: 4.17.0
       next-connect: 1.0.0-next.3
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       prettier: 2.7.1
       prisma: 4.6.1
       react: 18.2.0
@@ -73,7 +73,7 @@ importers:
       eslint-config-next: 12.3.3_hsf322ms6xhhd4b5ne6lb74y4a
       eslint-config-prettier: 8.5.0_eslint@8.28.0
       eslint-plugin-import: 2.26.0_ivdjtymx6ubvknadox4oh4qsue
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       prettier: 2.7.1
       prisma: 4.6.1
       tsconfig: link:../../packages/tsconfig
@@ -1672,6 +1672,7 @@ packages:
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
     engines: {node: '>=6'}
+    dev: false
 
   /escape-string-regexp/1.0.5:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
@@ -2857,11 +2858,10 @@ packages:
       regexparam: 2.0.1
     dev: false
 
-  /next-transpile-modules/9.1.0:
-    resolution: {integrity: sha512-yzJji65xDqcIqjvx5vPJcs1M+MYQTzLM1pXH/qf8Q88ohx+bwVGDc1AeV+HKr1NwvMCNTpwVPSFI7cA5WdyeWA==}
+  /next-transpile-modules/10.0.0:
+    resolution: {integrity: sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==}
     dependencies:
       enhanced-resolve: 5.10.0
-      escalade: 3.1.1
     dev: true
 
   /next/12.3.3_twoewwu6sg7cdf3ao6njtbftne:
