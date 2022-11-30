@@ -24,7 +24,7 @@ importers:
       '@next-auth/prisma-adapter': 1.0.5
       '@prisma/client': 4.7.0
       '@tabler/icons': 1.114.0
-      '@types/node': 18.11.9
+      '@types/node': 18.11.10
       '@types/react': 18.0.25
       '@types/react-dom': 18.0.9
       '@typescript-eslint/eslint-plugin': 5.45.0
@@ -63,7 +63,7 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@emotion/eslint-plugin': 11.10.0_eslint@8.28.0
-      '@types/node': 18.11.9
+      '@types/node': 18.11.10
       '@types/react': 18.0.25
       '@types/react-dom': 18.0.9
       '@typescript-eslint/eslint-plugin': 5.45.0_czs5uoqkd3podpy6vgtsxfc7au
@@ -91,7 +91,7 @@ importers:
       eslint: 8.22.0
       eslint-config-next: 12.2.5_tg6quxtr5dyl3tikvj7rwonxxi
       eslint-config-prettier: 8.5.0_eslint@8.22.0
-      eslint-config-turbo: 0.0.4_eslint@8.22.0
+      eslint-config-turbo: 0.0.5_eslint@8.22.0
       eslint-plugin-react: 7.31.11_eslint@8.22.0
     devDependencies:
       typescript: 4.9.3
@@ -1033,8 +1033,8 @@ packages:
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  /@types/node/18.11.9:
-    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
+  /@types/node/18.11.10:
+    resolution: {integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -1738,13 +1738,13 @@ packages:
       eslint: 8.28.0
     dev: true
 
-  /eslint-config-turbo/0.0.4_eslint@8.22.0:
-    resolution: {integrity: sha512-HErPS/wfWkSdV9Yd2dDkhZt3W2B78Ih/aWPFfaHmCMjzPalh+5KxRRGTf8MOBQLCebcWJX0lP1Zvc1rZIHlXGg==}
+  /eslint-config-turbo/0.0.5_eslint@8.22.0:
+    resolution: {integrity: sha512-DOEUi5pe0nlU3zoGBPm2P1CSEqhCLs2TJljcfIuYT0HzzqpZz2ILbwo/hHXUNXjGIp0SIENndC+RplAyqbvr3A==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
     dependencies:
       eslint: 8.22.0
-      eslint-plugin-turbo: 0.0.4_eslint@8.22.0
+      eslint-plugin-turbo: 0.0.5_eslint@8.22.0
     dev: false
 
   /eslint-import-resolver-node/0.3.6:
@@ -2080,8 +2080,8 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /eslint-plugin-turbo/0.0.4_eslint@8.22.0:
-    resolution: {integrity: sha512-dfmYE/iPvoJInQq+5E/0mj140y/rYwKtzZkn3uVK8+nvwC5zmWKQ6ehMWrL4bYBkGzSgpOndZM+jOXhPQ2m8Cg==}
+  /eslint-plugin-turbo/0.0.5_eslint@8.22.0:
+    resolution: {integrity: sha512-UfP5t1ISVjrJvnQGelpCZpWFBe/yGegrarTLMGwLJS0g7ZQXaMlR8gsnEkyON0cb4XvrP+nM3RVXqOkoLKqmiw==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
     dependencies:
