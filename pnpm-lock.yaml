@@ -19,7 +19,7 @@ importers:
       '@emotion/server': 11.10.0
       '@emotion/styled': 11.10.5
       '@mantine/core': 5.9.1
-      '@mantine/hooks': 5.9.0
+      '@mantine/hooks': 5.9.1
       '@mantine/next': 5.9.0
       '@next-auth/prisma-adapter': 1.0.5
       '@prisma/client': 4.7.1
@@ -49,8 +49,8 @@ importers:
       '@emotion/react': 11.10.5_aqoa7kt4goqcaubvun3pl4ouwm
       '@emotion/server': 11.10.0
       '@emotion/styled': 11.10.5_2bemncejivdfneswsjngd4mot4
-      '@mantine/core': 5.9.1_57dfaobsal6lqsc6czlk3ejmge
-      '@mantine/hooks': 5.9.0_react@18.2.0
+      '@mantine/core': 5.9.1_yuku5ko3tzvxle2si3aowxciya
+      '@mantine/hooks': 5.9.1_react@18.2.0
       '@mantine/next': 5.9.0_7ngmbtiook2xpobmynoaqm3ywu
       '@next-auth/prisma-adapter': 1.0.5_hpttyne5hky44pj2anoxcmv4zm
       '@prisma/client': 4.7.1_prisma@4.7.1
@@ -620,7 +620,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: false
 
-  /@mantine/core/5.9.1_57dfaobsal6lqsc6czlk3ejmge:
+  /@mantine/core/5.9.1_yuku5ko3tzvxle2si3aowxciya:
     resolution: {integrity: sha512-2WbP1MP5HqVcBBfhAXh/PK1VoiLohJuIm+aFLK8uFXPlT/D9ccQ3BHwrR+x5gUJtCioSPzmuoVUdvTlJTGqf3A==}
     peerDependencies:
       '@mantine/hooks': 5.9.1
@@ -628,7 +628,7 @@ packages:
       react-dom: '>=16.8.0'
     dependencies:
       '@floating-ui/react-dom-interactions': 0.10.1_biqbaboplfbrettd7655fr4n2y
-      '@mantine/hooks': 5.9.0_react@18.2.0
+      '@mantine/hooks': 5.9.1_react@18.2.0
       '@mantine/styles': 5.9.1_sogmqz4enknxtkxk3k5s6bqwnq
       '@mantine/utils': 5.9.1_react@18.2.0
       '@radix-ui/react-scroll-area': 1.0.0_biqbaboplfbrettd7655fr4n2y
@@ -640,8 +640,8 @@ packages:
       - '@types/react'
     dev: false
 
-  /@mantine/hooks/5.9.0_react@18.2.0:
-    resolution: {integrity: sha512-SkxMMYMe/X7UBcWrgjPy5kWMRZrphEueeopYvrivGLKf0xsL1o5O7DH2yq9r5IlTXb8B3vwwoEctxH5FA8Yb2Q==}
+  /@mantine/hooks/5.9.1_react@18.2.0:
+    resolution: {integrity: sha512-xBo5ylJfEI8emnJjmqe1sZYyzsQzn5KAlb/YrIiJ4KLct4MSzFndQDQc0xIeNbQsSrOpz7UhWADeEEmOgcT+qw==}
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
