@@ -38,7 +38,7 @@ importers:
       next: 12.3.4
       next-auth: 4.18.7
       next-connect: 1.0.0-next.3
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       prettier: 2.8.1
       prisma: 4.8.0
       react: 18.2.0
@@ -73,7 +73,7 @@ importers:
       eslint-config-next: 12.3.4_iukboom6ndih5an6iafl45j2fe
       eslint-config-prettier: 8.6.0_eslint@8.31.0
       eslint-plugin-import: 2.26.0_m2kn7xiag5lymyarkgri27ztxm
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       prettier: 2.8.1
       prisma: 4.8.0
       tsconfig: link:../../packages/tsconfig
@@ -1661,6 +1661,7 @@ packages:
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
     engines: {node: '>=6'}
+    dev: false
 
   /escape-string-regexp/1.0.5:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
@@ -2854,11 +2855,11 @@ packages:
       regexparam: 2.0.1
     dev: false
 
-  /next-transpile-modules/9.1.0:
-    resolution: {integrity: sha512-yzJji65xDqcIqjvx5vPJcs1M+MYQTzLM1pXH/qf8Q88ohx+bwVGDc1AeV+HKr1NwvMCNTpwVPSFI7cA5WdyeWA==}
+  /next-transpile-modules/10.0.0:
+    resolution: {integrity: sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==}
+    deprecated: All features of next-transpile-modules are now natively built-in Next.js 13.1. Please use Next's transpilePackages option :)
     dependencies:
       enhanced-resolve: 5.10.0
-      escalade: 3.1.1
     dev: true
 
   /next/12.3.4_twoewwu6sg7cdf3ao6njtbftne:
